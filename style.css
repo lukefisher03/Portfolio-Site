@@ -1,0 +1,62 @@
+body {
+    padding:0;
+    margin:0;
+    background-color: #ffffff;
+}
+
+img:hover {
+    transform: scale(1.02);
+}
+
+img {
+    transition-duration: 0.5s;
+}
+
+.page {
+    padding:4% 10%;
+}
+
+.page1 {
+    text-align: center;
+}
+
+.page2{
+    display:flex;
+    justify-content: space-between;
+}
+
+.page2 > img {
+    align-self: flex-start;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.page2 > img:nth-child(2) {
+    margin-top:300px;
+}
+
+.page3 {
+    display:flex;
+    justify-content: right;
+}
+
+.page3 > img {
+    padding: 0 3%;
+}
+
+.page5 > img{
+    margin-left:5%;
+}
+
+.page6 {
+    display:flex;
+    justify-content: right;
+}
+
+.page6 > img {
+    margin-right:5%;
+}
+
+.page7 > img {
+    padding:0 3%;
+}
